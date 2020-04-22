@@ -27,9 +27,11 @@ SECRET_KEY = 'tma=sf961@%1g-45t)$f@6e*hkmu_h8d=d#g2+o-h4p2_6g=k^'
 DEBUG = False
 
 # if DEBUG = False ALLOWED_HOSTS must set
+# if new host, please add
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'localhost'
+    'localhost',
+    'canray-django-rest-api.herokuapp.com'
 ]
 
 
